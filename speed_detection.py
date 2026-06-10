@@ -189,7 +189,7 @@ def calculate_amplitude(center, image, radius=1):
 
 
 # 예시 실행
-folder_path = './data2408_sit_test/train/walk'  # npy 파일이 저장된 폴더 경로로 변경하세요.
+folder_path = './data/walk'  # npy 파일이 저장된 폴더 경로로 변경하세요.
 n_files = 50  # 사용할 npy 파일의 개수
 fps = 12
 measure_leg_swing_speed(folder_path, n_files, fps)
