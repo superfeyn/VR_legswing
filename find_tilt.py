@@ -84,7 +84,7 @@ def load_and_sum_npy_files(folder_path, n):
 if __name__ == "__main__":
     estimator = TiltEstimatorPlaneFit()
 
-    folder_path = './data2408_sit_test/train/left'  # npy 파일이 저장된 폴더 경로로 변경하세요.
+    folder_path = './data/left'  # npy 파일이 저장된 폴더 경로로 변경하세요.
     n_files = 1  # 사용할 npy 파일의 개수
     data_array = load_and_sum_npy_files(folder_path, n_files)
 
